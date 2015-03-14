@@ -2,6 +2,7 @@
 
 $timestamp = time();
 $datum = date("Y-m-d",$timestamp);
+$datum2 = date("d.m.Y", $timestamp);
 $tag = date("d",$timestamp);
 $monat_index = date("n",$timestamp);
 $wochentag_index = date("w",$timestamp);
