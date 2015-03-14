@@ -15,6 +15,7 @@
     <div id="liste">
       <?php include('liste.php') ?>
     </div>
+    <?php echo $datum ?>
   </body>
 
 </html>
